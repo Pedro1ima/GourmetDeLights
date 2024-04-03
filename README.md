@@ -1,7 +1,7 @@
 <h1>Museu Nacional</h1>
 
 <h2> Sobre</h2>
-<p>Projeto desenvolvido para um Museu fictício.</p>
+<p>Projeto desenvolvido para um Cardápio de Restaurante fictício.</p>
 
 ##  Tecnologias
 <div>
