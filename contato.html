@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato - GourmetDelights</title>
+    <link rel="stylesheet" href="estilo.css">
+  <link rel="icon" href="imagens/favicon-16x16.png" type="image/x-icon">
+</head>
+<body style="background: url(imagens/fundo.svg); text-align: center;">
+    
+    <div id="area-principal">
+        <div class="area-cabeçalho">
+            <img src="imagens/logo.png">
+            <img src="imagens/logo.png" id="logo2">
+            <h1>Gourmet<span style="color: #F4A460;">Delights</span></h1>
+
+            <div class="menu">
+                <ul id="lista-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cardapio.html">Cardápio</a></li>
+                    <li><a href="galeria.html">Galeria</a></li>
+                    <li><a href="sobre_nos.html">Sobre Nós</a></li>
+                    <li class="primeiro"><a href="contato.html">Contato</a></li>
+                </ul>
+            </div>
+        </div>
+
+            <div class="corpo-contato">
+
+
+                <div class="info-contato">
+                    <h2>Informações de Contato</h2>
+                    <p><strong>Endereço:</strong> Rua Getúlio Vargas, 123, Bauru - SP</p>
+                    <p><strong>Telefone:</strong> (14) 98810-3431</p>
+                    <p><strong>E-mail:</strong> pedrofariadelima27@gmail.com</p>
+                </div>
+                
+                <div class="info-contato">
+                    <h2>Envie-nos uma mensagem</h2>
+                    <form action="/enviar-mensagem" method="post">
+                        <div>
+                            <label for="name">Nome:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div>
+                            <label for="email">E-mail:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div>
+                            <label for="message">Mensagem:</label>
+                            <textarea id="message" name="message" rows="4" required></textarea>
+                        </div>
+                        <div>
+                            <button type="submit">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+                
+                <div class="info-contato">
+                    <h2>Nossas Redes Sociais</h2>
+                    <div class="links-sociais">
+                    <div class="img-redes">
+                        <img src="imagens/facebook.png" alt="">
+                    </div>
+                    <a href="https://facebook.com/gourmetdelights" class="clear" style="background-color: blue;" target="_blank">Facebook</a>
+                    <div class="img-redes2">
+                        <img src="imagens/instagram.jpeg" alt="">
+                    </div>   
+                    <a href="https://instagram.com/gourmetdelights" class="clear" style="background-color: blueviolet;" class="clear" target="_blank">Instagram</a>
+                    <div class="img-redes3">
+                        <img src="imagens/twitter.png" alt="">
+                    </div>
+                    <a href="https://twitter.com/gourmetdelights" class="clear" style="background-color: black;" class="clear" target="_blank">Twitter</a>
+                    </div>
+                </div>
+
+
+            </div>
+    </div>
+    <div class="area-rodapé">
+        <p>© Todos os direitos reservados.</p>
+    </div>
+</body>
+</html>

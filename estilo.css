@@ -1,0 +1,326 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #DCDCDC;
+    text-align: center;
+    background: url(imagens/fundo.svg) no-repeat center;
+    
+
+}
+.area-cabeçalho{
+    background-color: black;
+    padding: 15px;
+}
+.area-cabeçalho img{
+    float: left;
+    width: 175px;
+    height: 175px;
+}
+#logo2{
+    float: right;
+}
+h1{
+    color: #DCDCDC;
+    font-size: 3em;
+}
+.menu ul{
+    list-style-type: none;
+    margin: 20px;
+}
+.menu li{
+    display: inline;
+    margin-left: 6px;
+}
+.menu a{
+    text-decoration: none;
+    padding: 0 auto;
+    font-size: 1em;
+    color: White;
+    padding: 8px 20px;
+    border-radius: 4px;
+    background: #A9A9A9;
+}
+#lista-menu{
+    margin-top: 70px;
+}
+.menu a:hover{
+    color: black;
+    background-color: #FFDEAD;
+    transition: all 700ms ease-out;
+
+}
+ul .primeiro a{
+    color: black;
+    background-color: #FFDEAD;
+}
+.slider-container{
+    background-size: cover;
+    background: url(imagens/fundo\ home.png) center;
+}
+.slider-container img{
+    border-radius: 10px;
+}
+.area-apresentação{
+    border-top: 1px dashed black;
+    width: 960px;
+    margin: 25px auto;
+    margin-top: 30px;
+
+}
+h2{
+    color: #1C1C1C;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.9em;
+    text-decoration: underline;
+}
+.apresentação-categorias{
+    border-top: 1px dashed black;
+    width: 960px;
+    margin: 25px auto;
+    margin-top: 40px;
+}
+.apresentação-categorias h2{
+    color: #1C1C1C;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 1.8em;
+    text-decoration: underline;
+}
+.menu-categorias{
+    list-style-type: none;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.menu-categorias li{
+    border-radius: 4px;
+    display: inline;
+    font-size: 1.1em;
+    margin: 8px 12px;
+    padding: 8px 18px;
+}
+.menu-categorias li a{
+    color: #F4A460;
+}
+.menu-categorias li:hover{
+    background: #FFDEAD;
+    padding: 14px 20px;
+}
+.menu-categorias a:hover{
+    color: black;
+    transform:scale(1.1);
+    font-size: 1.2em;
+}
+#leia-mais a{
+    color: #F4A460;
+    text-decoration: none;
+}
+#leia-mais a:hover{
+    text-decoration: underline;
+}
+.area-rodapé{
+    margin-top: 40px;
+    background-color: #1C1C1C;
+    padding: 13px;
+    clear: both;
+    color: white;
+    font-weight: bold;
+}
+.corpo-cardapio{
+    margin: 0 auto;
+}
+.item{
+    border: 1px solid black;
+    border-radius: 8px;
+    width: 960px;
+    float: left;
+    background-color: white;
+    height: 255px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 20px 50px
+}
+.item:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+}
+.item img{
+    border: 1px solid black;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    float: left;
+    width: 260px;
+    height: 200px;
+    margin-right: 40px;
+    margin-left: 10px;
+}
+.item p{
+    margin: 30px;
+    font-size: 1em;
+}
+.item h3{
+    color: #F4A460;
+    font-size: 1.2em;
+    text-decoration: underline;
+    font-weight: bold;
+    clear: both;
+    position: relative;
+    left: 100px;
+}
+.area-corpo h2{
+    margin-bottom: 50px;
+}
+
+.clear{
+    clear: both;
+}
+.galeria {
+    margin: 0 auto;
+    width: 960px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 16px;
+    padding: 20px;
+}
+.galeria img {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.2s;
+}
+.galeria img:hover {
+    transform: scale(1.1);
+}
+
+.corpo-sobre{
+    width: 960px;
+    margin: 20px auto;
+}
+.corpo-sobre h2{
+    color: #F4A460;
+    margin-bottom: 25px;
+}
+.area-sobre{
+    background-color: white;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.area-sobre:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+.area-sobre p{
+    margin: 25px;
+}
+.area-sobre img{
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 25px;
+    float: left;
+    width: 280px;
+    height: 200px;
+}
+.depoimentos {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.testemunhos {
+    padding: 20px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.testemunhos:last-child {
+    border-bottom: none;
+}
+.testemunhos h3 {
+    font-size: 20px;
+    margin-top: 0;
+}
+.testemunhos p {
+    font-style: italic;
+}
+.info-contato{
+    margin: 15px 290px;
+    padding: 40px;
+    padding-top: 10px;
+}
+.info-contato p{
+    margin: 8px;
+    font-size: 1.1em;
+}
+.info-contato input{
+    padding-left: 28px;
+    padding-top: 7px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+.info-contato label{
+    margin: 20px;
+    margin-bottom: 4px;
+    display: block;   
+}
+.info-contato button{
+    color: white;
+    background-color: green;
+    margin: 20px;
+    padding: 6px 10px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.info-contato button:hover{
+    transform:scale(1.1);
+}
+.info-contato textarea{
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border: 1.5px solid black;
+}
+.links-sociais a{
+    text-decoration: none;
+    color: #F4A460;
+    border: 1px solid black;
+    background-color: #F4A460;
+    color: white;
+    border-radius: 10px;
+    display: block;
+    padding: 14px;
+    margin: 15px 40%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+}
+.info-contato a:hover{
+    transform:scale(1.1);
+}
+.info-contato img{
+    width: 49px;
+    height: 49px;
+    border-radius: 10px;
+}
+.img-redes{
+    float: left;
+    position: relative;
+    bottom: -52px;
+    margin-left: 260px;
+}
+.img-redes2{
+    float: left;
+    position: relative;
+    right: -260px;
+    top: 52px;
+}
+.img-redes3{
+    float: left;
+    margin-left: 260px;
+    position: relative;
+    top: 52px;
+}
+
+
+
